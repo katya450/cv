@@ -1,0 +1,24 @@
+{
+  "name": "Moposivut",
+  "version": "0.0.0",
+  "authors": [
+    "katya450 <katja.lusma@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "WebContent/js",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

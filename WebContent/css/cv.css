@@ -1,0 +1,396 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/raleway/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: Cabin;
+  src: url("../fonts/cabin/Cabin-Medium.ttf");
+}
+
+@font-face {
+  font-family: Lora;
+  src: url("../fonts/Lora/Lora-Regular.ttf");
+}
+@font-face {
+  font-family: Pompiere;
+  src: url("../fonts/Pompiere/Pompiere-Regular.ttf");
+}
+
+body {
+  background-color: #000000;
+  margin: 0;
+  background: url("../img/havuja.png") no-repeat center fixed;
+}
+
+h1,
+h2 {
+  color: #112201;
+  font-family: "Pompiere", cursive;
+}
+
+.isonavi h1 {
+  color: green;
+  font-size: 50px;
+  display: inline-block;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+  transition: all 0.2s linear;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p,
+a {
+  font-family: Lora, serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cc0000;
+}
+
+.isonavi {
+  color: green;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 8px;
+  padding-bottom: 13px;
+  z-index: 2;
+}
+
+.mobile {
+  display: none;
+}
+
+header {
+  color: #d3d7cf;
+
+  padding-bottom: 50px;
+}
+
+header h1 {
+  color: green;
+  font-size: 80px;
+}
+
+#intro {
+  background-color: black;
+  vertical-align: middle;
+  margin-top: 200px;
+}
+
+.aboutme-class {
+  display: inline-block;
+  padding-bottom: 50px;
+  padding-top: 60px;
+  background-color: black;
+}
+
+#aboutme {
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 700px;
+  color: #d3d7cf;
+  float: left;
+}
+
+#omakuva {
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+section {
+  color: black;
+  padding-top: 500px;
+}
+
+section h2 {
+  padding-top: 200px;
+  font-size: 80px;
+  padding-bottom: 130px;
+  padding-right: 100px;
+  text-align: right;
+  background-color: white;
+  margin: 0;
+}
+
+section p {
+  margin-right: 100px;
+  margin-left: 200px;
+}
+
+#education h2,
+#hobbies h2 {
+  text-align: left;
+  padding-left: 50px;
+}
+
+#education h2 {
+  text-align: left;
+  padding-left: 50px;
+  background-color: #4d9900;
+}
+
+.textbox.education {
+  background-color: #4d9900;
+}
+
+#projects {
+  height: 600px;
+}
+
+.textbox {
+  padding-bottom: 20px;
+  background-color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+
+  text-align: left;
+}
+
+.skill {
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 4em;
+  font-family: Lora, serif;
+}
+
+.links {
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 4em;
+  font-family: Lora, serif;
+  padding-bottom: 20px;
+}
+
+.skill h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.skill a {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.experience-years {
+  padding-right: 100px;
+  float: left;
+  width: 100px;
+}
+.experience-employer {
+  padding-right: 100px;
+  float: left;
+  width: 150px;
+}
+.experience-title:hover {
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+.hobby-div {
+  vertical-align: middle;
+  background-color: white;
+}
+
+.hobby-class {
+  display: inline-block;
+}
+
+#hobby-text {
+  width: 700px;
+}
+
+#hobby-img {
+  max-height: 613px;
+  width: auto;
+  height: auto;
+  float: left;
+  padding-left: 150px;
+}
+
+.honda {
+  width: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#stories {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#tarinat {
+  width: 50%;
+}
+
+#tarinat p {
+  margin-right: 5px;
+}
+
+.tarinaa {
+  display: inline-block;
+}
+
+#ask {
+  margin-bottom: 100px;
+}
+
+label {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+}
+
+input,
+textarea,
+select {
+  width: 300px;
+  display: block;
+  height: 25px;
+  margin: 5px;
+}
+
+textarea {
+  height: 80px;
+}
+
+​ footer {
+  color: #d3d7cf;
+  margin-top: 50px;
+  padding-top: 100px;
+  background-color: #2e3436;
+}
+
+.footer {
+  background-color: #2e3436;
+  margin-top: 50px;
+  margin-bottom: 0;
+  width: 100%;
+  height: 52px;
+  font-size: 14px;
+}
+
+#footerleft {
+  float: left;
+  padding-left: 100px;
+}
+
+#footerright {
+  float: right;
+  padding-right: 100px;
+}
+
+/* mobiili */
+@media screen and (max-width: 750px) {
+  .mobile {
+    display: initial;
+  }
+  .isonavi {
+    display: none;
+  }
+  header {
+    color: #d3d7cf;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .textbox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2e3436;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+  }
+  section {
+    margin-top: 30px;
+    padding-top: 40px;
+  }
+  section p,
+  h2 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .hoodee {
+    width: 100%;
+    display: inline;
+  }
+  #stories {
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #tarinat {
+    width: 100%;
+  }
+
+  label {
+    float: left;
+    margin-right: 5px;
+    width: 200px;
+  }
+
+  .footer {
+    background-color: #2e3436;
+    color: #d3d7cf;
+    margin-top: 5px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    height: auto;
+  }
+  #footerleft {
+    float: none;
+    padding-left: 5px;
+  }
+  #footerright {
+    float: none;
+    padding-right: 5px;
+  }
+}
+
+/* tabletti */
+@media screen and (max-width: 1060px) {
+  section {
+    margin-top: 30px;
+    padding-top: 40px;
+  }
+  #stories {
+    height: auto;
+  }
+  #tarinat {
+    width: 100%;
+  }
+
+  #honda {
+    height: auto;
+  }
+  #hd {
+    height: auto;
+  }
+  .hoodee {
+    width: 100%;
+    display: inherit;
+  }
+  .honda {
+    width: 100%;
+    display: inherit;
+  }
+}
